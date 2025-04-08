@@ -8,8 +8,8 @@
     body {
       margin: 0;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      background-color: #1e1e1e;
-      color: #ffffff;
+      background-color: #ffffff;
+      color: #000000;
       line-height: 1.6;
     }
     .container {
@@ -20,16 +20,14 @@
     h1 {
       font-size: 2.5em;
       margin-bottom: 0.2em;
-      background: linear-gradient(90deg, #00c6ff, #0072ff);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+      color: #0072ff;
     }
     h2 {
-      color: #00c6ff;
+      color: #0072ff;
       margin-top: 2em;
     }
     a {
-      color: #00c6ff;
+      color: #0072ff;
       text-decoration: none;
     }
     a:hover {
@@ -38,10 +36,21 @@
     ul {
       padding-left: 1.2em;
     }
+    .faq-item {
+      margin-bottom: 1.5em;
+    }
+    .faq-q {
+      font-size: 1.1em;
+      font-weight: bold;
+    }
+    .faq-a {
+      text-indent: 2em;
+      margin-top: 0.3em;
+    }
     footer {
       margin-top: 3em;
       font-size: 0.9em;
-      color: #888;
+      color: #666;
     }
   </style>
 </head>
@@ -55,13 +64,26 @@
     <p><strong>Email：</strong> <a href="mailto:sjses860519@gmail.com">sjses860519@gmail.com</a></p>
 
     <h2>❓ 常見問題 FAQ</h2>
-    <ul>
-      <li><strong>Q:</strong> 忘記密碼怎麼辦？<br><strong>A:</strong> 本 App 預設不會主動登出帳號，若因更換裝置而需重新登入，請務必於更換前確認並紀錄群組邀請碼，或請原群組成員提供。之後您可註冊新帳號並透過該邀請碼加入群組，即可繼續存取既有資料。</li>
-      <li><strong>Q:</strong> Guest 模式是什麼？<br><strong>A:</strong> Guest 模式提供無需註冊的快速體驗，您可預覽 App 的功能架構與操作方式。但若需使用資料同步、群組管理等進階功能，仍建議註冊帳號以享完整服務。</li>
-      <li><strong>Q:</strong> 為何需要註冊帳號？<br><strong>A:</strong> 註冊帳號可確保您的資料於雲端安全保存，並支援多裝置同步，提供完整的群組管理、記錄編輯與匯出功能。</li>
-      <li><strong>Q:</strong> 註冊需要真實 Email 嗎？<br><strong>A:</strong> 不需要。Email 僅作為帳號識別之用，您可使用任意格式正確的 Email 註冊（如 test123@mail.com），無需收信驗證。</li>
-      <li><strong>Q:</strong> 我可以切換或加入多個群組嗎？<br><strong>A:</strong> 可以。您可透過邀請碼加入多個群組，並在設定中切換使用中群組，資料將依群組分開儲存與管理。</li>
-    </ul>
+    <div class="faq-item">
+      <div class="faq-q">Q: 忘記密碼怎麼辦？</div>
+      <div class="faq-a">本 App 預設不會主動登出帳號，若因更換裝置而需重新登入，請務必於更換前確認並紀錄群組邀請碼，或請原群組成員提供。之後您可註冊新帳號並透過該邀請碼加入群組，即可繼續存取既有資料。</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Q: Guest 模式是什麼？</div>
+      <div class="faq-a">Guest 模式提供無需註冊的快速體驗，您可預覽 App 的功能架構與操作方式。但若需使用資料同步、群組管理等進階功能，仍建議註冊帳號以享完整服務。</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Q: 為何需要註冊帳號？</div>
+      <div class="faq-a">註冊帳號可確保您的資料於雲端安全保存，並支援多裝置同步，提供完整的群組管理、記錄編輯與匯出功能。</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Q: 註冊需要真實 Email 嗎？</div>
+      <div class="faq-a">不需要。Email 僅作為帳號識別之用，您可使用任意格式正確的 Email 註冊（如 test123@mail.com），無需收信驗證。</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Q: 我可以切換或加入多個群組嗎？</div>
+      <div class="faq-a">可以。您可透過邀請碼加入多個群組，並在設定中切換使用中群組，資料將依群組分開儲存與管理。</div>
+    </div>
 
     <h2>🔐 隱私政策</h2>
     <p>
